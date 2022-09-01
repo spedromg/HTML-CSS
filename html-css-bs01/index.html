@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML | CSS | Basic 01</title>
+</head>
+
+<body>
+  <h1>Hello World HTML and CSS! : )</h1>
+  <p id="textP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit totam asperiores, voluptate quos quibusdam ab dicta consectetur vitae earum voluptates aliquam assumenda ducimus repellat minima at velit culpa! Maiores, ipsa?</p>
+
+  <script>
+    alert('Hello World HTML and CSS!')
+
+    function changeColorTextInP() {
+      textP.style.color = 'yellow'
+      alert(textP.innerHTML) // get text from p element
+    }
+
+    textP.addEventListener('click', changeColorTextInP)
+  </script>
+
+</body>
+
+</html>

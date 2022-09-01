@@ -1,0 +1,9 @@
+h1 {
+  background: red;
+}
+
+p {
+  background: blue;
+  color: white;
+  padding: 10px;
+}
