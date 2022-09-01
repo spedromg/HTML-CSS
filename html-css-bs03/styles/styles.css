@@ -1,0 +1,10 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  padding: 20px;
+}
+a {
+  text-transform: uppercase;
+  color: chocolate;
+  font-weight: bold;
+}
