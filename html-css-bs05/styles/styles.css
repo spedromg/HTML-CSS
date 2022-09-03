@@ -1,0 +1,33 @@
+.boxe {
+  display: grid;
+  width: 400px;
+  height: 400px;
+  background: blanchedalmond;
+  margin: 10px;
+  border: 1px solid black;
+}
+img {
+  max-width: 100%;
+}
+
+#imgMain {
+  display: block;
+  max-width: 50%;
+  border-radius: 5px;
+}
+
+a {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+  height: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 15px;
+  background: royalblue;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
