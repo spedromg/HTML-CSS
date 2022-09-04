@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+}
+
+h1,
+h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.container {
+  background: grey;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.rectang {
+  width: 400px;
+  height: 400px;
+  background: #0042ac;
+  color: whitesmoke;
+  font-weight: bold;
+  border: 5px solid #ccc;
+}
+
+.rectang p {
+  margin: 10px;
+}
