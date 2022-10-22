@@ -1,0 +1,93 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 55%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#logotipo {
+  grid-column: span 2;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#menu {
+  grid-column: span 2;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#menu li {
+  display: inline;
+  margin: 10px;
+}
+#menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  color: black;
+}
+
+#container-item-info {
+  background-color: white;
+  padding: 50px;
+  text-align: right;
+}
+#sept {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ee2211;
+  position: relative;
+  top: -20px;
+  right: -435px;
+}
+#container-item-info h3 {
+  font-size: 2rem;
+}
+#container-item-info p {
+  font-size: 1.3rem;
+  margin-bottom: 35px;
+}
+#container-item-info a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ee2211;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+#container-item-info-img img {
+  display: block;
+  max-width: 100%;
+}
+
+#container-item-vantagens h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  padding: 60px 60px;
+  text-align: right;
+  color: #cccccc;
+}
+
+#container-item-vantagens-list {
+  padding: 60px;
+}
+
+.container-item-vantagens-list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-item-vantagens-list-item span {
+  display: inline-block;
+  font-weight: bold;
+}
